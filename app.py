@@ -1,8 +1,8 @@
-st.set_page_config(
-    page_title="Integración Numérica en Robótica",
-    page_icon="🤖",
-    layout="wide"
-)
+##st.set_page_config(
+  ##  page_title="Integración Numérica en Robótica",
+   ## page_icon="🤖",
+   ## layout="wide"
+##)
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
