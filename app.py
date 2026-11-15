@@ -1,11 +1,13 @@
-##st.set_page_config(
-  ##  page_title="Integración Numérica en Robótica",
-   ## page_icon="🤖",
-   ## layout="wide"
-##)
+
 import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
+
+st.set_page_config(
+    page_title="Integración Numérica en Robótica",
+    page_icon="🤖",
+    layout="wide"
+)
 
 from scipy.integrate import (
     cumulative_trapezoid,
